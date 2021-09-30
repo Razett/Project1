@@ -8,11 +8,14 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/valueTitleText1"
@@ -61,36 +64,36 @@
                 android:id="@+id/buttonAdd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:textSize="50px"
-                android:text="+" />
+                android:layout_weight="1"
+                android:text="+"
+                android:textSize="50px" />
 
             <Button
                 android:id="@+id/buttonMinus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:textSize="50px"
-                android:text="-" />
+                android:layout_weight="1"
+                android:text="-"
+                android:textSize="50px" />
 
             <Button
                 android:id="@+id/buttonMultiplied"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:textSize="50px"
-                android:text="*" />
+                android:layout_weight="1"
+                android:text="*"
+                android:textSize="50px" />
 
             <Button
                 android:id="@+id/buttonDivision"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="50px"
-                android:text="/" />
+                android:text="/"
+                android:textSize="50px" />
         </LinearLayout>
 
         <TextView
@@ -98,7 +101,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="80px"
-            android:text="Result" />
+            android:text="Result"
+            android:textSize="80px" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

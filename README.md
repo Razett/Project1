@@ -2,7 +2,7 @@
 2021-2_Project1_Calc
 
 
-2021년 2학기 안드로이드 프로그래밍 과제1 <br><br>
+2021년 2학기 안드로이드 프로그래밍 과제1 <br><br><br>
 
 EditText에 숫자가 아닌 다른 값 입력 시 Parsing Error Toast 출력
 
